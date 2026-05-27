@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppButton">
+        <!-- Shadow pe text (opțional) -->
+        <item name="android:shadowColor">#99000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="rounded_corner">
+        <item name="cornerSize">10dp</item>
+    </style>
+
+</resources>

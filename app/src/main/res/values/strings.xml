@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PDF Reader</string>
+
+    <!-- Splash -->
+    <string name="splash_title_pdf">PDF</string>
+    <string name="splash_title_reader">Reader</string>
+    <string name="splash_subtitle">Read · Edit · Sign</string>
+
+    <!-- Language Selection -->
+    <string name="language_title">Choose Language</string>
+    <string name="language_subtitle">Select your preferred language to continue</string>
+    <string name="language_continue">Continue</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Read PDFs Anywhere</string>
+    <string name="onboarding_desc_1">Open and read any PDF document on the go with a smooth, distraction-free reading experience</string>
+    <string name="onboarding_title_2">Edit &amp; Annotate</string>
+    <string name="onboarding_desc_2">Add text, highlight, draw, and annotate your PDF documents with powerful editing tools</string>
+    <string name="onboarding_title_3">Powerful PDF Tools</string>
+    <string name="onboarding_desc_3">Scan, split, merge, lock, and convert documents with our comprehensive PDF toolkit</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_skip">Skip</string>
+
+    <!-- Permissions -->
+    <string name="permission_storage_title">Storage Access</string>
+    <string name="permission_storage_desc">Allow document access.\nThis allows the application to:\nOpen and read PDF documents\nEdit PDF files\nRename, move, or delete files\nSave edited PDF documents\nThe application only accesses files necessary for its core functionality.</string>
+    <string name="permission_storage_allow">Allow Access</string>
+    <string name="permission_storage_deny">Not Now</string>
+    <string name="permission_camera_title">Camera Access</string>
+    <string name="permission_camera_desc">Enable camera to scan documents and create PDFs from photos</string>
+    <string name="permission_camera_allow">Allow Camera</string>
+    <string name="permission_camera_skip">Skip for now</string>
+
+    <!-- Home -->
+    <string name="home_title">All Files</string>
+    <string name="home_search_hint">Search PDF files…</string>
+    <string name="home_empty_title">No PDFs Found</string>
+    <string name="home_empty_desc">PDF files on your device will appear here</string>
+    <string name="home_sort_name_asc">Name (A-Z)</string>
+    <string name="home_sort_name_desc">Name (Z-A)</string>
+    <string name="home_sort_date_newest">Date (Newest)</string>
+    <string name="home_sort_date_oldest">Date (Oldest)</string>
+    <string name="home_sort_size_largest">Size (Largest)</string>
+    <string name="home_sort_size_smallest">Size (Smallest)</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Tools -->
+    <string name="tools_title">PDF Tools</string>
+    <string name="tool_scan">Scan to PDF</string>
+    <string name="tool_scan_desc">Scan documents with camera</string>
+    <string name="tool_split">Split PDF</string>
+    <string name="tool_split_desc">Split PDF into parts</string>
+    <string name="tool_lock">Lock PDF</string>
+    <string name="tool_lock_desc">Protect with password</string>
+    <string name="tool_unlock">Unlock PDF</string>
+    <string name="tool_unlock_desc">Remove password protection</string>
+    <string name="tool_image_to_pdf">Image to PDF</string>
+    <string name="tool_image_to_pdf_desc">Convert images to PDF</string>
+
+    <!-- Scan to PDF -->
+    <string name="scan_title">Scan to PDF</string>
+    <string name="scan_launching">Launching scanner…</string>
+    <string name="scan_saving">Saving scanned PDF…</string>
+    <string name="scan_success">PDF saved successfully</string>
+    <string name="scan_cancelled">Scan cancelled</string>
+    <string name="scan_error">Scanner not available. Please update Google Play Services.</string>
+
+    <!-- Image to PDF -->
+    <string name="image_to_pdf_title">Image to PDF</string>
+    <string name="image_to_pdf_select">Select Images</string>
+    <string name="image_to_pdf_create">Create PDF</string>
+    <string name="image_to_pdf_creating">Creating PDF…</string>
+    <string name="image_to_pdf_success">PDF created successfully</string>
+    <string name="image_to_pdf_no_images">Please select at least one image</string>
+    <string name="image_to_pdf_hint">Select up to 20 images to convert into a PDF document</string>
+
+    <!-- Split PDF -->
+    <string name="split_title">Split PDF</string>
+    <string name="split_select_pdf">Select PDF</string>
+    <string name="split_at_page">Split at page</string>
+    <string name="split_every_n">Split every N pages</string>
+    <string name="split_custom">Custom ranges</string>
+    <string name="split_custom_hint">e.g. 1–3, 4–7, 8–10</string>
+    <string name="split_page_number">Page number</string>
+    <string name="split_num_pages">Number of pages</string>
+    <string name="split_execute">Split</string>
+    <string name="split_processing">Splitting PDF…</string>
+    <string name="split_success">Split into %d files</string>
+    <string name="split_total_pages">Total pages: %d</string>
+    <string name="split_invalid_page">Page number must be between 1 and %d</string>
+    <string name="split_invalid_n">Number must be greater than 0</string>
+    <string name="split_invalid_ranges">Invalid range format</string>
+
+    <!-- Lock PDF -->
+    <string name="lock_title">Lock PDF</string>
+    <string name="lock_select_pdf">Select PDF</string>
+    <string name="lock_password">Password</string>
+    <string name="lock_confirm_password">Confirm Password</string>
+    <string name="lock_execute">Lock PDF</string>
+    <string name="lock_processing">Encrypting PDF…</string>
+    <string name="lock_success">PDF locked successfully</string>
+    <string name="lock_password_min">Password must be at least 4 characters</string>
+    <string name="lock_password_mismatch">Passwords do not match</string>
+    <string name="lock_already_encrypted">This PDF is already encrypted</string>
+
+    <!-- Unlock PDF -->
+    <string name="unlock_title">Unlock PDF</string>
+    <string name="unlock_select_pdf">Select PDF</string>
+    <string name="unlock_password">Password</string>
+    <string name="unlock_execute">Unlock PDF</string>
+    <string name="unlock_processing">Decrypting PDF…</string>
+    <string name="unlock_success">PDF unlocked successfully</string>
+    <string name="unlock_wrong_password">Incorrect password</string>
+    <string name="unlock_not_encrypted">This PDF is not encrypted</string>
+    <string name="unlock_checking">Checking encryption…</string>
+
+    <!-- Tool common -->
+    <string name="tool_select_pdf">Select PDF</string>
+    <string name="tool_file_name">File: %s</string>
+    <string name="tool_error">An error occurred: %s</string>
+    <string name="tool_open_result">Open Result</string>
+
+    <!-- PDF to Image export tool -->
+    <string name="tool_pdf_to_image">PDF to Image</string>
+    <string name="tool_pdf_to_image_desc">Export pages as images</string>
+    <string name="pdf_to_image_page_count">Pages: %d</string>
+    <string name="pdf_to_image_format">Output format</string>
+    <string name="pdf_to_image_progress">Exporting page %1$d of %2$d…</string>
+    <string name="pdf_to_image_export">Export All Pages</string>
+
+    <!-- Extract Text tool -->
+    <string name="tool_extract_text">Extract Text</string>
+    <string name="tool_extract_text_desc">Extract text from PDF</string>
+    <string name="extract_text_execute">Extract Text</string>
+    <string name="extract_text_processing">Extracting text…</string>
+
+    <!-- Merge PDF tool -->
+    <string name="tool_merge">Merge PDF</string>
+    <string name="tool_merge_desc">Combine multiple PDFs</string>
+
+    <!-- Compress PDF tool -->
+    <string name="tool_compress">Compress PDF</string>
+    <string name="tool_compress_desc">Reduce PDF file size</string>
+
+    <!-- Page Manager tool -->
+    <string name="tool_page_manager">Page Manager</string>
+    <string name="tool_page_manager_desc">Reorder, rotate, delete pages</string>
+    <string name="extract_text_result">Extracted Text</string>
+    <string name="extract_text_copy">Copy All</string>
+    <string name="extract_text_save">Save as TXT</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_reader_mode">Default Reader Mode</string>
+    <string name="settings_continuous">Continuous</string>
+    <string name="settings_single_page">Single Page</string>
+    <string name="settings_keep_screen_on">Keep Screen On</string>
+    <string name="settings_notifications">Push Notifications</string>
+    <string name="settings_about">About</string>
+    <string name="settings_rate">Rate App</string>
+    <string name="settings_share">Share App</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_version">Version</string>
+
+    <!-- Viewer -->
+    <string name="viewer_search_hint">Search in PDF…</string>
+    <string name="viewer_night_mode">Night Mode</string>
+    <string name="viewer_thumbnails">Thumbnails</string>
+    <string name="viewer_page_mode">Page Mode</string>
+    <string name="viewer_edit">Edit</string>
+    <string name="viewer_copy">Copy</string>
+    <string name="viewer_highlight">Highlight</string>
+    <string name="viewer_underline">Underline</string>
+    <string name="viewer_strikethrough">Strikethrough</string>
+    <string name="viewer_edit_text">Edit Text</string>
+    <string name="viewer_unsaved_title">Unsaved Changes</string>
+    <string name="viewer_unsaved_message">You have unsaved annotations. Save or discard?</string>
+    <string name="viewer_copied">Copied to clipboard</string>
+    <string name="viewer_save_btn">Save</string>
+    <string name="viewer_discard_btn">Discard</string>
+    <string name="viewer_color">Color</string>
+    <string name="viewer_delete_annotation">Delete Annotation</string>
+    <string name="viewer_select_all">Select All</string>
+    <string name="viewer_translate">Translate</string>
+    <string name="viewer_share">Share</string>
+    <string name="viewer_save_annotations_title">Unsaved Annotations</string>
+    <string name="viewer_save_annotations_message">You have unsaved annotations. Would you like to save them?</string>
+
+    <!-- File Options -->
+    <string name="file_open">Open</string>
+    <string name="file_info">File Info</string>
+    <string name="file_selected_count">%d selected</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_search">Search</string>
+    <string name="cd_import_pdf">Import PDF</string>
+    <string name="cd_close_selection">Close selection</string>
+    <string name="cd_select_all">Select all</string>
+    <string name="cd_sort_options">Sort options</string>
+    <string name="cd_switch_to_grid">Switch to grid</string>
+    <string name="cd_switch_to_list">Switch to list</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_light_mode">Light mode</string>
+    <string name="cd_night_mode">Night mode</string>
+    <string name="cd_thumbnails">Thumbnails</string>
+    <string name="cd_page_mode">Page mode</string>
+    <string name="cd_previous_result">Previous result</string>
+    <string name="cd_next_result">Next result</string>
+    <string name="cd_close_search">Close search</string>
+    <string name="cd_edit_pdf">Edit PDF</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_help">Help</string>
+    <string name="cd_undo">Undo</string>
+    <string name="cd_redo">Redo</string>
+    <string name="cd_save">Save</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_keyboard">Keyboard</string>
+    <string name="cd_font">Font</string>
+    <string name="cd_color">Color</string>
+    <string name="cd_signature">Signature</string>
+    <string name="cd_remove">Remove</string>
+    <string name="cd_image_number">Image %d</string>
+    <string name="cd_copy">Copy</string>
+    <string name="cd_note">Note</string>
+
+    <!-- Notes -->
+    <string name="note_dialog_title">Edit Note</string>
+    <string name="note_dialog_hint">Enter your note here…</string>
+
+    <!-- Settings Section -->
+    <string name="settings_general">General</string>
+
+    <!-- Edit Mode -->
+    <string name="edit_discard_title">Discard changes?</string>
+    <string name="edit_discard_message">You have unsaved changes. Discard them?</string>
+    <string name="edit_discard_confirm">Discard</string>
+    <string name="edit_discard_cancel">Keep Editing</string>
+    <string name="edit_tab_mark">Mark</string>
+    <string name="edit_tab_annotate">Annotate</string>
+    <string name="edit_tab_fill_sign">Fill &amp; Sign</string>
+    <string name="edit_saving_pdf">Saving PDF…</string>
+    <string name="edit_error">Error</string>
+    <string name="edit_save_success">PDF saved successfully</string>
+    <string name="edit_save_error">Failed to save PDF</string>
+    <string name="edit_help_title">Help</string>
+    <string name="mark_no_selectable_text">No selectable text on this page</string>
+    <string name="edit_page_of">Page %1$d of %2$d</string>
+    <string name="edit_go_to_page">Go to Page</string>
+    <string name="edit_page_number_hint">Page number</string>
+    <string name="edit_go">Go</string>
+    <string name="mark_apply_tool">Apply %s</string>
+    <string name="edit_opacity">Opacity</string>
+    <string name="edit_stroke_width">Stroke Width</string>
+
+    <!-- Mark Tab Tools -->
+    <string name="tool_highlight">Highlight</string>
+    <string name="tool_underline">Underline</string>
+    <string name="tool_strikethrough">Strikethrough</string>
+    <string name="tool_note">Note</string>
+
+    <!-- Annotate Tab Tools -->
+    <string name="tool_freehand">Freehand</string>
+    <string name="tool_oval">Oval</string>
+    <string name="tool_rectangle">Rectangle</string>
+    <string name="tool_select_region">Select</string>
+    <string name="tool_line">Line</string>
+    <string name="tool_arrow">Arrow</string>
+    <string name="tool_zigzag">Zigzag</string>
+    <string name="tool_triangle">Triangle</string>
+    <string name="tool_polygon">Polygon</string>
+    <string name="tool_eraser">Eraser</string>
+    <string name="annotate_settings_fill">Fill</string>
+    <string name="annotate_settings_fill_color">Fill Color</string>
+
+    <!-- Fill & Sign Tab Tools -->
+    <string name="tool_signature">Signature</string>
+    <string name="tool_image">Image</string>
+    <string name="tool_date">Date</string>
+
+    <!-- Split PDF -->
+    <string name="split_method">Split Method</string>
+
+    <!-- Image to PDF -->
+    <string name="image_to_pdf_selected_count">%d images selected</string>
+
+    <!-- Signature Modal -->
+    <string name="sig_title">Signatures</string>
+    <string name="sig_draw_prompt">Draw your signature</string>
+    <string name="sig_undo">Undo</string>
+    <string name="sig_clear">Clear</string>
+    <string name="sig_saved_title">Saved Signatures</string>
+    <string name="sig_empty">No signatures yet. Create one!</string>
+    <string name="sig_create_new">Create New Signature</string>
+
+    <!-- Highlight Settings -->
+    <string name="highlight_settings_title">Highlight Settings</string>
+    <string name="highlight_color_label">Color</string>
+    <string name="highlight_done">Done</string>
+
+    <!-- Ad -->
+    <string name="ad_sponsored">Sponsored</string>
+    <string name="ad_placeholder">Advertisement will appear here</string>
+
+    <!-- Misc UI -->
+    <string name="collapse">Collapse</string>
+    <string name="expand">Expand</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+    <string name="pdf_page">PDF Page %d</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="rename">Rename</string>
+    <string name="info">Info</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard</string>
+    <string name="loading">Loading…</string>
+    <string name="ad_label">Ad</string>
+
+    <!-- Fill & Sign -->
+    <string name="fillsign_add_signature">Add Signature</string>
+    <string name="fillsign_color">Color:</string>
+    <string name="fillsign_signature_name">Signature name</string>
+    <string name="fillsign_clear">Clear</string>
+    <string name="fillsign_save">Save</string>
+    <string name="fillsign_tool_signature">Signature</string>
+    <string name="fillsign_tool_image">Image</string>
+    <string name="fillsign_tool_text">Add Text</string>
+    <string name="fillsign_tool_date">Date</string>
+    <string name="fillsign_tool_add_page">Add Page</string>
+    <string name="add_page_dialog_title">Insert Pages</string>
+    <string name="add_page_import_image">Import Image</string>
+    <string name="add_page_import_pdf">Import PDF</string>
+    <string name="add_page_insert_position">Insert after page:</string>
+    <string name="add_page_at_beginning">At beginning</string>
+    <string name="fillsign_tool_stamp">Stamp</string>
+    <string name="fillsign_tool_link">Link</string>
+    <string name="fillsign_link_hint">Enter URL</string>
+    <string name="fillsign_max_reached">Maximum %d signatures reached</string>
+    <string name="fillsign_add_text_title">Add Text</string>
+    <string name="fillsign_text_done">Done</string>
+    <string name="fillsign_text_hint">Enter text here…</string>
+    <string name="fillsign_resize">Resize</string>
+
+    <!-- Save PDF Dialogs -->
+    <string name="save_options_title">Save PDF</string>
+    <string name="save_overwrite">Save</string>
+    <string name="save_overwrite_desc">Overwrite original file</string>
+    <string name="save_as">Save As</string>
+    <string name="save_as_desc">Save to a new file</string>
+    <string name="overwrite_confirm_title">Overwrite file?</string>
+    <string name="overwrite_confirm_body">The original file will be permanently changed. This cannot be undone.</string>
+    <string name="overwrite_confirm_btn">Overwrite</string>
+    <string name="save_as_dialog_title">Save As</string>
+    <string name="save_as_dialog_hint">File name</string>
+</resources>

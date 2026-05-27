@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#D32F2F</color>
+    <color name="accent_dark">#B71C1C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bg_primary_light">#FFFFFF</color>
+    <color name="bg_secondary_light">#F5F5F5</color>
+    <color name="text_primary_light">#1A1A1A</color>
+    <color name="text_secondary_light">#757575</color>
+    <color name="border_light">#E0E0E0</color>
+    <color name="bg_primary_dark">#121212</color>
+    <color name="bg_secondary_dark">#1E1E1E</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B0B0B0</color>
+    <color name="border_dark">#333333</color>
+
+
+    <color name="primary_light">#6750A4</color>
+    <color name="on_primary_light">#FFFFFF</color>
+    <color name="primary_container_light">#EADDFF</color>
+    <color name="background_light">#FFFBFE</color>
+    <color name="surface_light">#FFFBFE</color>
+
+    <!-- Dark Theme -->
+    <color name="primary_dark">#D0BCFF</color>
+    <color name="on_primary_dark">#381E72</color>
+    <color name="primary_container_dark">#4F378B</color>
+    <color name="background_dark">#1C1B1F</color>
+    <color name="surface_dark">#1C1B1F</color>
+
+    <color name="category_sport">#B54D4D</color>
+    <color name="category_travel">#5576A4</color>
+    <color name="category_work">#D8C365</color>
+    <color name="category_entertainment">#90B762</color>
+    <color name="content_1">#C0674B</color>
+    <color name="content_2">#81A558</color>
+    <color name="content_3">#3BA79D</color>
+    <color name="content_4">#5A3B3B</color>
+    <color name="content_5">#C7BD6B</color>
+    <color name="content_6">#6B49A4</color>
+    <color name="content_7">#B2EBF2</color>
+    <color name="content_8">#993139</color>
+    <color name="content_9">#004D40</color>
+    <color name="content_other">#818084</color>
+
+    <color name="graph_speed">#1565C0</color>
+    <color name="graph_heart_rate">#C62828</color>
+    <color name="graph_elevation">#558B2F</color>
+    <color name="graph_temperature">#F9A825</color>
+
+    <color name="graph_default">#BC8222</color>
+
+    <color name="intensity_low">#5E5E5E</color>
+    <color name="intensity_high">#E2C400</color>
+
+    <color name="start_point">#2E7D32</color>
+    <color name="end_point">#D84315</color>
+
+    <color name="feel_good">#1B5E20</color>
+    <color name="feel_ok">#B6711F</color>
+    <color name="feel_bad">#8E0F0F</color>
+
+    <color name="favorite">#AD1457</color>
+
+    <color name="mosaic_0">#EBEBEB</color>
+    <color name="mosaic_1">#AED581</color>
+    <color name="mosaic_2">#7CB342</color>
+    <color name="mosaic_3">#558B2F</color>
+    <color name="mosaic_4">#33691E</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="water_light">#90caf9</color> <!-- albastru deschis -->
+    <color name="water_medium">#2196f3</color> <!-- albastru -->
+    <color name="water_dark">#0d47a1</color> <!-- albastru închis -->
+    <color name="gray_light">#cccccc</color>
+
+    <color name="button_bg">#2196F3</color>   <!-- albastru pentru light -->
+    <color name="button_text">#FFFFFFFF</color> <!-- alb -->
+
+    <color name="dialog_bg_color">#eeeeee</color>
+
+    <color name="calendar_day_text">#000000</color>
+    <color name="calendar_null_color">#999999</color>
+    <color name="calendar_badge_1000">#E53935</color>
+    <color name="calendar_badge_2000">#FFD600</color>
+    <color name="calendar_badge_above_2000">#49BE25</color>
+
+    <color name="blue">#2196F3</color>   <!-- stroke badge history -->
+
+    <color name="switch_thumb_default">#e7e6e5</color>
+    <color name="switch_thumb_checked">#6c6677</color>
+    <color name="switch_track_default">#bdbdbd</color>
+    <color name="switch_track_checked">#cdcfd3</color>
+
+    <color name="black_65">#A6000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="white_15">#26FFFFFF</color>
+    <color name="white_100">#FFFFFFFF</color>
+    <color name="white_25">#40FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="color_dot_un_selected">#2F333F</color>
+    <color name="color_orange_app">#F97A44</color>
+    <color name="color_text_uncheck">#DADADA</color>
+    <color name="black_line">#26000000</color>
+    <color name="green_language_select">#ff80deea</color>
+    <color name="black_new">#111229</color>
+    <color name="dot_color">#ff80deea</color>
+    <color name="color_text_green_enable_keyboard">#13CE74</color>
+    <color name="white_smoke">#F4F5F9</color>
+    <color name="black_grey">#4F5067</color>
+    <color name="black_step">#21223B</color>
+    <color name="color_uncheck_topic_home">#5F617F</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="divider_grey">#55808080</color>
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="key_press_color">#11ffffff</color>
+    <color name="color_tv_step_unselected">#A0A0A0</color>
+
+    <color name="colorPrimary">#151515</color>
+    <color name="colorPrimaryDark">#09113c</color>
+    <color name="colorAccent">#e85e84</color>
+    <color name="color_keyboard_name_already_exists">#D80027</color>
+
+    <color name="candidate_background">#bbffffff</color>
+    <color name="candidate_normal">#ff000000</color>
+    <color name="candidate_other">#ff808080</color>
+    <color name="candidate_recommended">#ffe35900</color>
+    <color name="cardview_dark_background">#ff424242</color>
+    <color name="cardview_light_background">#ffffffff</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="colorBtnDisabledText">#b2b2b2</color>
+    <color name="colorCandidateBackground">#17222d</color>
+    <color name="colorCandidateOther">#6f767c</color>
+    <color name="colorKeyNormal">#dbdedf</color>
+    <color name="colorKeyTextPressed">#aaaaaa</color>
+
+    <color name="darkTheme">#3e4149</color>
+    <color name="random1">#ffffe082</color>
+    <color name="random10">#ffb39ddb</color>
+    <color name="random11">#ffa5d6a7</color>
+    <color name="random12">#ffb388ff</color>
+    <color name="random13">#ff009688</color>
+    <color name="random14">#ffe91e63</color>
+    <color name="random2">#ff90caf9</color>
+    <color name="random3">#ff37474f</color>
+    <color name="random4">#3f3f3f</color>
+    <color name="random5">#ffd7ccc8</color>
+    <color name="random6">#ff80deea</color>
+    <color name="random7">#ff80cbc4</color>
+    <color name="random8">#ffff5722</color>
+    <color name="random9">#ffff9e80</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="white_75p">#bfffffff</color>
+    <color name="gray_line">#2F333F</color>
+    <color name="color_text_value_sound">#AAACB8</color>
+    <color name="color_img_sound_unselect">#81839E</color>
+    <color name="tv_color_content_my_design_empty">#78798B</color>
+    <color name="tv_delete_color">#828394</color>
+    <color name="color_tv_topic_gif">#11C05A</color>
+    <color name="color_tv_no_result_search">#EBEEF6</color>
+    <color name="color_bg_tutorial">#1D1F27</color>
+    <color name="color_tv_sound_check">#0FCD5E</color>
+    <color name="color_tv_vibrate_check">#00D9FF</color>
+    <color name="color_tv_number_row_check">#BC88FF</color>
+    <color name="color_tv_popup_key_press_check">#13B2D5</color>
+    <color name="color_tv_special_character_check">#FF72E3</color>
+    <color name="color_tv_item_settings_uncheck">#BBBFC7</color>
+    <color name="color_view_line">#474747</color>
+    <color name="color_bg_new">#15171C</color>
+    <color name="color_tv_permission">#959DAE</color>
+    <color name="color_tv_permission_title">#EBEEF6</color>
+    <color name="color_bg_main">#15171C</color>
+    <color name="color_bg_panel_bottom">#282B35</color>
+    <color name="color_tv_panel_bottom">#81889D</color>
+    <color name="color_tv_hint_search">#41444D</color>
+    <color name="color_tv_topic_new">#8E94A6</color>
+
+    <color name="color_tv_best_rate">#11C05A</color>
+
+    <color name="you_primary_color">#11C05A</color>
+    <color name="you_neutral_text_color">#FFFFFFFF</color>
+    <color name="default_text_color">#FFFFFFFF</color>
+</resources>

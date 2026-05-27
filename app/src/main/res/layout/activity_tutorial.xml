@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_100"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPagerTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/_5dp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGetStart"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/llDotsIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_marginBottom="@dimen/_40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                android:id="@+id/dots_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:dotsColor="@color/color_dot_un_selected"
+                app:dotsCornerRadius="@dimen/_6dp"
+                app:dotsSize="@dimen/_12dp"
+                app:dotsSpacing="@dimen/_5dp"
+                app:dotsWidthFactor="2.5"
+                app:progressMode="false"
+                app:selectedDotColor="@color/green_language_select" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTitleTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_15dp"
+            android:layout_marginTop="@dimen/_30dp"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:maxLines="3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/tvGetStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Follow interactive lessons and play along with sample tracks to improve your guitar skills" />
+
+        <TextView
+            android:id="@+id/tvNextPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10dp"
+            android:background="@drawable/ripple_click_new"
+            android:fontFamily="@font/roboto_bold"
+            android:padding="@dimen/_10dp"
+            android:text="Next"
+            android:textAllCaps="true"
+            android:textColor="@color/dot_color"
+            android:textSize="@dimen/text_size_16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/llDotsIndicator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/llDotsIndicator" />
+
+        <TextView
+            android:id="@+id/tvGetStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_click_new"
+            android:fontFamily="@font/roboto_bold"
+            android:padding="@dimen/_10dp"
+            android:text="Get Start"
+            android:textAllCaps="true"
+            android:textColor="@color/dot_color"
+            android:textSize="@dimen/text_size_16sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/llDotsIndicator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/llDotsIndicator" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

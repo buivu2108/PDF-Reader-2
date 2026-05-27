@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2.5dp"
+    android:background="@color/white"
+    android:elevation="1dp"
+    android:gravity="center_vertical"
+    tools:ignore="PrivateResource">
+
+    <ImageView
+        android:id="@+id/img_point_item_point"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toStartOf="@+id/txtPrice"
+        android:layout_toLeftOf="@+id/txtPrice"
+        android:layout_toEndOf="@+id/img_point_item_point"
+        android:layout_toRightOf="@+id/img_point_item_point"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:text="320pts"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_button_buy_point"
+        android:gravity="center"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:text="$40.28"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

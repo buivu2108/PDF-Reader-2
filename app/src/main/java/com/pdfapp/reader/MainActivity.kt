@@ -9,6 +9,9 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.core.os.LocaleListCompat
+import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsControllerCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.lifecycleScope
 import com.pdfapp.reader.domain.model.ThemeMode
@@ -25,13 +28,18 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         enableEdgeToEdge()
+
+        hideSystemBars()
 
         // Restore saved language on startup
         lifecycleScope.launch {
             val savedLang = appContainer.preferences.selectedLanguage.first()
             if (savedLang.isNotEmpty()) {
-                AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(savedLang))
+                AppCompatDelegate.setApplicationLocales(
+                    LocaleListCompat.forLanguageTags(savedLang)
+                )
             }
         }
 
@@ -47,13 +55,37 @@ class MainActivity : AppCompatActivity() {
 
         setContent {
             val themeModeFlow = remember {
-                appContainer.preferences.themeMode.map { ThemeMode.fromString(it) }
+                appContainer.preferences.themeMode.map {
+                    ThemeMode.fromString(it)
+                }
             }
-            val themeMode by themeModeFlow.collectAsStateWithLifecycle(ThemeMode.SYSTEM)
+
+            val themeMode by themeModeFlow.collectAsStateWithLifecycle(
+                ThemeMode.SYSTEM
+            )
 
             AppTheme(themeMode = themeMode) {
                 AppNavGraph(appContainer = appContainer)
             }
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        hideSystemBars()
+    }
+
+    private fun hideSystemBars() {
+        WindowCompat.setDecorFitsSystemWindows(window, false)
+
+        val controller = WindowInsetsControllerCompat(
+            window,
+            window.decorView
+        )
+
+        controller.hide(WindowInsetsCompat.Type.systemBars())
+
+        controller.systemBarsBehavior =
+            WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
     }
 }

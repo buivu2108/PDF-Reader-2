@@ -81,11 +81,11 @@ class PointListActivity : AppCompatActivity() {
 
     private fun requestListPointPackage() {
         val listServerPackage = listOf(
-            ServerPackage(productId = "driftly_point_01"),
-            ServerPackage(productId = "driftly_point_02"),
-            ServerPackage(productId = "driftly_point_03"),
-            ServerPackage(productId = "driftly_point_04"),
-            ServerPackage(productId = "driftly_point_05")
+            ServerPackage(productId = "pdf_reader_vt_01"),
+            ServerPackage(productId = "pdf_reader_vt_02"),
+            ServerPackage(productId = "pdf_reader_vt_03"),
+            ServerPackage(productId = "pdf_reader_vt_04"),
+            ServerPackage(productId = "pdf_reader_vt_05")
         )
         addPointClientPackage(listServerPackage)
 
